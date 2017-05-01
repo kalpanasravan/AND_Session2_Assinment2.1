@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView android:text="@string/red" android:id="@+id/TextView01" android:layout_height="wrap_content"
+        android:background="@color/RED" android:layout_width="fill_parent" android:layout_weight=".14"
+        android:gravity="center" android:textColor="@color/BLACK"/>
+    <TextView android:text="@string/orange" android:id="@+id/TextView02" android:layout_height="wrap_content"
+        android:layout_width="fill_parent" android:layout_weight=".15" android:background="@color/ORANGE"
+        android:gravity="center" android:textColor="@color/BLACK"/>
+    <TextView android:text="@string/yellow" android:id="@+id/TextView03" android:layout_height="wrap_content"
+        android:layout_width="fill_parent" android:layout_weight=".14" android:background="@color/YELLOW"
+        android:gravity="center" android:textColor="@color/BLACK"/>
+    <TextView android:text="@string/Green" android:id="@+id/TextView04" android:layout_height="wrap_content"
+        android:layout_width="fill_parent" android:layout_weight=".15" android:background="@color/GREEN"
+        android:gravity="center" android:textColor="@color/BLACK"/>
+    <TextView android:text="@string/blue" android:id="@+id/TextView05" android:layout_height="wrap_content"
+        android:layout_width="fill_parent" android:layout_weight=".14" android:background="@color/BLUE"
+        android:gravity="center" android:textColor="@color/BLACK"/>
+    <TextView android:text="@string/indigo" android:id="@+id/TextView06" android:layout_height="wrap_content"
+        android:layout_width="fill_parent" android:layout_weight=".14" android:background="@color/INDIGO"
+        android:gravity="center" android:textColor="@color/BLACK"/>
+    <TextView android:text="@string/violet" android:id="@+id/TextView07" android:layout_height="wrap_content"
+        android:layout_width="fill_parent" android:layout_weight=".14" android:background="@color/VIOLET"
+        android:gravity="center" android:textColor="#000"/>
+
+</LinearLayout>
